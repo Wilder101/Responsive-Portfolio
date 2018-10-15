@@ -144,3 +144,38 @@ h3 {
 }
 
 /* Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px */
+
+@media screen and (max-width: 980px) {
+    .heading {
+        width: 960px;
+    }
+    .main-content{
+        width: 960px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        width: 748px;
+    }
+    .main-content{
+        width: 748px;
+    }
+    .content-inner {
+        margin-block-start: auto;
+        margin-block-end:   auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .heading {
+        width: 620px;
+    }
+    .main-content{
+        width: 620px;
+    }
+    .content-inner {
+        margin-block-start: auto;
+        margin-block-end:   auto;
+    }
+}
